@@ -1,10 +1,27 @@
 <?php
+/*	iptables-mysql-logview
+    Copyright (C) 2017  Jochen.Dehm@freenet.de
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see http://www.gnu.org/licenses/.
+*/
+
 function html_header()
 {
 	#Generate standard html header
 	print '<html><head><meta http-equiv="expires" content="0">';
 	print '<link rel="stylesheet" href="'.set_css_file().'">';
-	print '</head><body><div id="wrapper"><div id="header">JOEDs Firewall Log Watch</div> <!-- Ende kopfbereich -->';
+	print '</head><body><div id="wrapper"><div id="header">JOEDs iptables-mysql-logview</div> <!-- Ende kopfbereich -->';
 }
 function html_end()
 {
